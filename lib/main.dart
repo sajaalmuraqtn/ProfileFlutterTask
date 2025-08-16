@@ -92,8 +92,7 @@ class MyBody extends StatelessWidget {
           ],
         ),
 
-        SizedBox(height: 13.0),
-        Row(
+         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
           children: [
@@ -190,6 +189,23 @@ class MyBody extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 20),
           decoration: BoxDecoration(
             color: const Color.fromARGB(125, 128, 255, 121),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            spacing: 20,
+            children: [
+             Icon(Icons.phone ,size: 20,),
+              Text(
+                "0597397284",
+                style: TextStyle(fontSize: 15),
+              ),
+            ],
+          ),
+        ),
+        Container(
+          padding: EdgeInsets.symmetric(vertical: 20),
+          decoration: BoxDecoration(
+            color: const Color.fromARGB(124, 255, 182, 182),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,

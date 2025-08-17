@@ -13,4 +13,5 @@ The app demonstrates:
 
 ## Screenshots
 
+```markdown
 ![Profile App Screenshot](assets/screenshot.png)

@@ -12,6 +12,5 @@ The app demonstrates:
 - Responsive layout using `SingleChildScrollView`.
 
 ## Screenshots
+![Profile App Screenshot](assets/screenshoot.png)
 
-```markdown
-![Profile App Screenshot](assets/screenshot.png)

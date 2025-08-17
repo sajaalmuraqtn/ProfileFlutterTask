@@ -15,7 +15,8 @@ class MainApp extends StatelessWidget {
               true, // add arrow icon to go back to last screen i visit
           title: Container(
             child: Row(
-               children: [
+              spacing: 15,
+              children: [
                 CircleAvatar(
                   backgroundImage: AssetImage('assets/avaterprofile.png'),
                   radius: 20,
